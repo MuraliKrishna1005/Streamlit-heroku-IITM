@@ -4,12 +4,11 @@ st.write("""
 # To Find if the given Number is odd or even
 """)
 
-#Get Input
+#Get the user Input
 st.header('User Input Parameter')
 
 def user_input_features():
     num = st.number_input("Number ",step=1)
-
     if num%2 == 0:
         return f'The given Number {num} is Even.'
     else:
